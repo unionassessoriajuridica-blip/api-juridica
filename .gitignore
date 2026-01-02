@@ -1,35 +1,19 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
+# Ignorar instalador do Chrome
+*.deb
 
-# Environment
-.env
-.env.local
+# Ignorar pastas de perfil e cache do navegador (isso é o que está enchendo seu status)
+perfil_tjsp/
+perfil_tjsp/**
+BrowserMetrics/
+GPUCache/
+Cache/
 
-# Sessions e dados temporários
-.tjsp_session/
-.tjsp_session_vm/
-temp_session/
-
-# Screenshots e logs
-*.png
+# Ignorar logs e arquivos temporários
 *.log
-*.jpg
+*.pma
+*.txt
+.env
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
+# Ignorar dependências (se houver)
+node_modules/
+__pycache__/
