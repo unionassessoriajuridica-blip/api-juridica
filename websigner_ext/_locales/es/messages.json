@@ -1,0 +1,281 @@
+﻿{
+	"subject": {
+		"message": "Sujeto"
+	},
+	"issuer": {
+		"message": "Emisor"
+	},
+	"expiration": {
+		"message": "Expiraccion"
+	},
+	"expiredCertificate": {
+		"message": "Certificato expirado"
+	},
+	"showAdvancedSettings": {
+		"message": "Mostrar configuración avanzada"
+	},
+	"hideAdvancedSettings": {
+		"message": "Ocultar configuraciones avanzadas"
+	},
+	"importPkcs12": {
+		"message": "Importar PFX"
+	},
+	"refresh": {
+		"message": "Actualizar"
+	},
+	"loading": {
+		"message": "Cargando..."
+	},
+	"configurePkcs11": {
+		"message": "Crypto devices"
+	},
+	"pkcs11Title": {
+		"message": "Cryptographic devices (PKCS #11)"
+	},
+	"pkcs11Subtitle": {
+		"message": "Si tiene certificados almacenados en un Crypto Device y desea utilizarlos a través de PKCS # 11, marca una de las opciones siguientes."
+	},
+	"pkcs11CustomTitle": {
+		"message": "Personalizar modulos"
+	},
+	"pkcs11CustomSubtitle": {
+		"message": "Si su dispositivo criptográfico no se encuentra en la lista de arriba, ingrese el nombre del archivo {{lib-ext}} proporcionado por el fabricante"
+	},
+	"pkcs11ModuleNamePlaceholder": {
+		"message": "Tipo {{lib-ext}} nombre del archivo (con extension)"
+	},
+	"pkcs11TypeModuleName": {
+		"message": "Por favor llene el nombre del archivo del módulo."
+	},
+	"pkcs11ModuleDescription_aetpkss1_dll": {
+		"message": "SafeSign AET devices"
+	},
+	"pkcs11ModuleDescription_libaetpkss_so_3": {
+		"message": "SafeSign AET devices"
+	},
+	"pkcs11ModuleDescription_libaetpkss_dylib": {
+		"message": "SafeSign AET devices"
+	},
+	"pkcs11ModuleDescription_eTPKCS11_dll": {
+		"message": "SafeNet tokens"
+	},
+	"pkcs11ModuleDescription_libeToken_so": {
+		"message": "SafeNet tokens"
+	},
+	"pkcs11ModuleDescription_libeToken_dylib": {
+		"message": "SafeNet tokens"
+	},
+	"pkcs11ModuleDescription_asepkcs_dll": {
+		"message": "Athena IDProtect smartcards"
+	},
+	"add": {
+		"message": "Agregar"
+	},
+	"ok": {
+		"message": "OK"
+	},
+	"cancel": {
+		"message": "Cancela"
+	},
+	"close": {
+		"message": "Cerrar"
+	},
+	"pleaseWait": {
+		"message": "Por favor espere..."
+	},
+	"details": {
+		"message": "Detalles"
+	},
+	"export": {
+		"message": "Exportar"
+	},
+	"personalCertificates": {
+		"message": "Certificados Personales"
+	},
+	"myCertificates": {
+		"message": "Mis Certificados"
+	},
+	"advancedSettings": {
+		"message": "Configuraciones avanzadas "
+	},
+	"advanced": {
+		"message": "Avanzadas "
+	},
+	"verboseLogging": {
+		"message": "Registro detallado"
+	},
+	"experimentalAccess": {
+		"message": "Acceso experimental"
+	},
+	"experimentalAccessDetails": {
+		"message": "Obtenga acceso a funciones que aún están en desarrollo."
+	},
+	"userCancelled": {
+		"message": "Operacion cancelada por el usuario"
+	},
+	"trustedSites": {
+		"message": "Sitios"
+	},
+	"site": {
+		"message": "Site"
+	},
+	"permissions": {
+		"message": "Permisos"
+	},
+	"settings": {
+		"message": "Ajustes"
+	},
+	"showTrustedSites": {
+		"message": "Sitios de confianza..."
+	},
+	"noTrustedSites": {
+		"message": "Aquí podrá revisar y administrar los sitios web que autorizó para realizar firmas digitales (por ahora no hay)."
+	},
+	"trustedSitesSubtitle": {
+		"message": "Los siguientes sitios web están autorizados para realizar firmas digitales utilizando los certificados a continuación."
+	},
+	"issuedBy": {
+		"message": "emitido por"
+	},
+	"remove": {
+		"message": "Remover"
+	},
+	"notInstalledTitle": {
+		"message": "Web Signer no está completamente instalado"
+	},
+	"notInstalledMessage": {
+		"message": "Para utilizar este componente, también debe instalar el componente nativo Web Signer en su PC"
+	},
+	"outdatedTitle": {
+		"message": "Web Signer no esta actualizado"
+	},
+	"outdatedMessage": {
+		"message": "Hay una actualización disponible para el componente nativo Web Signer en su PC"
+	},
+	"install": {
+		"message": "Instalar"
+	},
+	"installDeb": {
+		"message": "Instalar .deb"
+	},
+	"installRpm": {
+		"message": "Instalar .rpm"
+	},
+	"update": {
+		"message": "Actualizar"
+	},
+	"updateDeb": {
+		"message": "Actualizar .deb"
+	},
+	"updateRpm": {
+		"message": "Actualizar .rpm"
+	},
+	"askLater": {
+		"message": "Pregúntame Después"
+	},
+	"errorOccurred": {
+		"message": "Se ha producido un error"
+	},
+	"downloadingMessage": {
+		"message": "Descargando el instalador ..."
+	},
+	"downloadedTitle": {
+		"message": "Casi estámos allí"
+	},
+	"downloadedMessagePart1": {
+		"message": "Ahora "
+	},
+	"downloadedMessagePart2": {
+		"message": "ejecuta el archivo descargado"
+	},
+	"downloadedMessagePart3": {
+		"message": " para actualizar Web Signer en su PC"
+	},
+	"redownloadMessagePart1": {
+		"message": "Si algo salió mal, "
+	},
+	"redownloadMessagePart2": {
+		"message": " para descargar el instalador de nuevo"
+	},
+	"clickHere": {
+		"message": "haga clic aquí"
+	},
+	"redownloadMessageLinux": {
+		"message": "Si algo salió mal, elige un package para descargar de nuevo:"
+	},
+	"redownloadMessageLinuxDeb": {
+		"message": "Package .deb para distribuciones Debian-based (e.g. Ubuntu, Mint): "
+	},
+	"redownloadMessageLinuxRpm": {
+		"message": "Package .rpm para RedHat- and distribuiciones Slackware-based (e.g. Fedora, openSUSE): "
+	},
+	"confirmRemoveCertificateTitle": {
+		"message": "Remover certificado?"
+	},
+	"confirmRemoveDeviceTitle": {
+		"message": "Remover device?"
+	},
+	"confirmRemoveCertificateMessagePart1": {
+		"message": "Estás seguro de que quieres eliminar el certificado "
+	},
+	"confirmRemoveCertificateMessagePart2": {
+		"message": " ?"
+	},
+	"confirmRemoveDeviceMessage": {
+		"message": "Estás seguro de que quieres eliminar el device "
+	},
+	"yesRemove": {
+		"message": "Si, remover"
+	},
+	"welcomeTitle": {
+		"message": "Bienvenido a Web Signer"
+	},
+	"welcomeMessage": {
+		"message": "Para comenzar a usar Web Signer, debe importar un certificado PKCS#12 (PFX) o habilitar el uso de un dispositivo criptográfico."
+	},
+	"aboutTitle": {
+		"message": "Sobre Web Signer"
+	},
+	"aboutDescription": {
+		"message": "Web Signer es un componente basado en la web que admite la firma digital de documentos y las operaciones generales de certificados digitales sin la necesidad de Java."
+	},
+	"remoteDevices": {
+		"message": "Móviles"
+	},
+	"noDevice": {
+		"message": "Ningún dispositivo conectado. Haga clic en el botón 'Agregar' para agregar un nuevo dispositivo."
+	},
+	"syncDevice1": {
+		"message": "Abre la <a href=\"https://websigner.softplan.com.br/Mobile?brand=\" target=\"_blank\">aplicación web PKI</a> en tu móvil"
+	},
+	"syncDevice2": {
+		"message": "Toque 'Scan QR code'"
+	},
+	"syncDevice3": {
+		"message": "Apunta tu móvil al código de abajo"
+	},
+	"versionLabel": {
+		"message": "Versión: "
+	},
+	"device": {
+		"message": "Dispositivo"
+	},
+	"mobileTimeout": {
+		"message": "El dispositivo móvil {{deviceName}} no responde. Asegúrese de que la aplicación Web Signer esté abierta en el dispositivo móvil y actualice el emparejamiento de dispositivos en la opción del complemento del navegador 'Móviles'."
+	},
+	"mobileConnectTimeout": {
+		"message": "No se pudo conectar al dispositivo móvil {{deviceName}}. Actualice el emparejamiento del dispositivo en la opción de complemento del navegador 'Móviles'."
+	},
+	"mobileNotAuthorized": {
+		"message": "Esta computadora ya no está autorizada para conectarse a {{deviceName}}. Actualice o elimine el emparejamiento en la opción de complemento del navegador 'Móviles'."
+	},
+	"mobileSendMessage": {
+		"message": "No se pudo enviar el comando al dispositivo móvil {{deviceName}}. Asegúrese de que esta computadora esté permitida en la opción de menú 'Computadoras' en la aplicación Web Signer y actualice el emparejamiento de dispositivos en la opción del complemento del navegador 'Móviles'."
+	},
+	"signatureDemos": {
+		"message": "Demostraciones de firma"
+	},
+	"productName": {
+		"message": "Web Signer"
+	}
+}

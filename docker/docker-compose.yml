@@ -1,0 +1,27 @@
+version: '3.8'
+
+services:
+  tjsp-bot:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: tjsp-bot
+    environment:
+      - DISPLAY=:99
+      - PYTHONUNBUFFERED=1
+      # Adicione suas variáveis de ambiente aqui
+      # - FACILITA_USER=seu_usuario
+      # - FACILITA_PASS=sua_senha
+    volumes:
+      # Monta certificado se necessário (ajuste o caminho)
+      # - /caminho/para/certificado.pfx:/app/certificado.pfx:ro
+      # Persiste dados do navegador
+      - tjsp_data:/app/.tjsp_session_vm
+    # Descomente se quiser acessar via VNC
+    # ports:
+    #   - "5900:5900"
+    restart: unless-stopped
+
+volumes:
+  tjsp_data:
+
